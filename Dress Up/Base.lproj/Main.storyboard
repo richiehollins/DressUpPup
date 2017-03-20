@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GothamRounded-Bold.otf">
+            <string>GothamRounded-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dress_Up" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9gf-Xd-rbI">
+                                <rect key="frame" x="0.0" y="-100" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ols-zm-n2G" userLabel="floor">
+                                        <rect key="frame" x="0.0" y="473" width="320" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="gpBody" translatesAutoresizingMaskIntoConstraints="NO" id="p8C-sP-FL2">
+                                        <rect key="frame" x="55" y="334" width="211" height="220"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="gpHeadHappy" translatesAutoresizingMaskIntoConstraints="NO" id="6m2-he-Ddy">
+                                        <rect key="frame" x="71" y="221" width="178" height="143"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PRr-Fr-nk8">
+                                        <rect key="frame" x="0.0" y="68" width="320" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qky-GC-Fax">
+                                        <rect key="frame" x="0.0" y="231" width="320" height="165"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bRj-BT-1X5">
+                                        <rect key="frame" x="0.0" y="352" width="320" height="190"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HaC-ag-hcJ">
+                                <rect key="frame" x="0.0" y="468" width="320" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sFS-of-EwG">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" clipsSubviews="YES" tag="20" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uv0-sq-bTa">
+                                                <rect key="frame" x="10" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnNone"/>
+                                                <connections>
+                                                    <action selector="didTapHatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I1c-kQ-XDF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="21" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Zj-PP-ibp">
+                                                <rect key="frame" x="90" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.26666666666666666" green="0.31764705882352939" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnHat1"/>
+                                                <connections>
+                                                    <action selector="didTapHatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNG-QA-t3N"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="22" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLx-Sn-OuK">
+                                                <rect key="frame" x="170" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnHat2"/>
+                                                <connections>
+                                                    <action selector="didTapHatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yLg-3v-n9q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="23" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDw-of-8tt">
+                                                <rect key="frame" x="250" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnHat3"/>
+                                                <connections>
+                                                    <action selector="didTapHatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="48v-Jy-V1Q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="24" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLC-tB-N77">
+                                                <rect key="frame" x="330" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnHat4"/>
+                                                <connections>
+                                                    <action selector="didTapHatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="spy-Ul-Ddg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="25" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zho-u1-Ths">
+                                                <rect key="frame" x="412" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnHat5"/>
+                                                <connections>
+                                                    <action selector="didTapHatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ba3-kj-hT0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="26" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYR-v8-0zI">
+                                                <rect key="frame" x="492" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnHat6"/>
+                                                <connections>
+                                                    <action selector="didTapHatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Faz-ks-xkK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="27" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcN-t3-rHt">
+                                                <rect key="frame" x="572" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnHat7"/>
+                                                <connections>
+                                                    <action selector="didTapHatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d7U-qX-zcQ"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HATS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTc-2o-Mxu">
+                                                <rect key="frame" x="11" y="1" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="12"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" clipsSubviews="YES" tag="30" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxt-Vj-7PI">
+                                                <rect key="frame" x="652" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnNone"/>
+                                                <connections>
+                                                    <action selector="didTapFaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mg2-D9-aSs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="31" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDg-g8-7mA">
+                                                <rect key="frame" x="732" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnFace1"/>
+                                                <connections>
+                                                    <action selector="didTapFaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="50E-HZ-QES"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="32" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFK-c1-jhJ">
+                                                <rect key="frame" x="812" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnFace2"/>
+                                                <connections>
+                                                    <action selector="didTapFaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKW-uo-WVe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="33" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkI-cE-5DK">
+                                                <rect key="frame" x="892" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnFace3"/>
+                                                <connections>
+                                                    <action selector="didTapFaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Obe-oj-ivU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="34" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Li0-fP-Sf2">
+                                                <rect key="frame" x="972" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnFace4"/>
+                                                <connections>
+                                                    <action selector="didTapFaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sNG-i7-knI"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FACES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzV-OV-0PK">
+                                                <rect key="frame" x="651" y="1" width="65" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="12"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" clipsSubviews="YES" tag="40" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3e-yS-iwv">
+                                                <rect key="frame" x="1052" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnNone"/>
+                                                <connections>
+                                                    <action selector="didTapBodyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0jq-48-ic5"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CLOTHES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4s-7T-BM2">
+                                                <rect key="frame" x="1051" y="1" width="85" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="12"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" clipsSubviews="YES" tag="41" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7S7-NE-d14">
+                                                <rect key="frame" x="1132" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnBody1"/>
+                                                <connections>
+                                                    <action selector="didTapBodyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="asY-v6-wug"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="42" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogG-zA-Vbt">
+                                                <rect key="frame" x="1212" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnBody2"/>
+                                                <connections>
+                                                    <action selector="didTapBodyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hco-eX-cuj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="43" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rth-FZ-MhZ">
+                                                <rect key="frame" x="1292" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnBody3"/>
+                                                <connections>
+                                                    <action selector="didTapBodyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kQ9-46-myM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="44" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1c-jN-oCC">
+                                                <rect key="frame" x="1372" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnBody4"/>
+                                                <connections>
+                                                    <action selector="didTapBodyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wpr-nq-uv1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="45" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGS-1A-aBa">
+                                                <rect key="frame" x="1452" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnBody5"/>
+                                                <connections>
+                                                    <action selector="didTapBodyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KD9-zd-XvC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="46" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRR-Lk-d48">
+                                                <rect key="frame" x="1532" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnBody6"/>
+                                                <connections>
+                                                    <action selector="didTapBodyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gqz-0K-eRB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" tag="47" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRo-or-4iT">
+                                                <rect key="frame" x="1612" y="20" width="70" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2666666667" green="0.31764705879999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="btnBody7"/>
+                                                <connections>
+                                                    <action selector="didTapBodyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctD-KG-Sbr"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.14117647058823529" green="0.16862745098039217" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.90980392156862744" blue="0.49019607843137253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="bodyButton0" destination="p3e-yS-iwv" id="Sr7-4N-6NA"/>
+                        <outlet property="bodyButton1" destination="7S7-NE-d14" id="Ds9-wU-G5s"/>
+                        <outlet property="bodyButton2" destination="ogG-zA-Vbt" id="rtf-Fe-IWb"/>
+                        <outlet property="bodyButton3" destination="Rth-FZ-MhZ" id="OBj-Dl-zM4"/>
+                        <outlet property="bodyButton4" destination="c1c-jN-oCC" id="INP-Ox-sY4"/>
+                        <outlet property="bodyButton5" destination="SGS-1A-aBa" id="uXX-5d-K5D"/>
+                        <outlet property="bodyButton6" destination="rRR-Lk-d48" id="7fz-xX-YR5"/>
+                        <outlet property="bodyButton7" destination="rRo-or-4iT" id="K83-ml-cHB"/>
+                        <outlet property="bodyImageView" destination="bRj-BT-1X5" id="jGC-O7-M30"/>
+                        <outlet property="drawer" destination="HaC-ag-hcJ" id="edH-n3-KmR"/>
+                        <outlet property="drawerScrollView" destination="sFS-of-EwG" id="WOj-yb-qKB"/>
+                        <outlet property="faceButton0" destination="pxt-Vj-7PI" id="HUV-aW-NRP"/>
+                        <outlet property="faceButton1" destination="RDg-g8-7mA" id="jvB-2d-PzD"/>
+                        <outlet property="faceButton2" destination="tFK-c1-jhJ" id="1yu-If-yau"/>
+                        <outlet property="faceButton3" destination="wkI-cE-5DK" id="gJQ-7V-sIx"/>
+                        <outlet property="faceButton4" destination="Li0-fP-Sf2" id="9yG-dM-ELK"/>
+                        <outlet property="faceImageView" destination="Qky-GC-Fax" id="nCr-7h-muB"/>
+                        <outlet property="greenPuppyHead" destination="6m2-he-Ddy" id="tZC-la-ofJ"/>
+                        <outlet property="hatButton0" destination="Uv0-sq-bTa" id="uhk-RP-iCR"/>
+                        <outlet property="hatButton1" destination="0Zj-PP-ibp" id="c61-JQ-IOE"/>
+                        <outlet property="hatButton2" destination="qLx-Sn-OuK" id="Pno-k0-5md"/>
+                        <outlet property="hatButton3" destination="TDw-of-8tt" id="AWn-mj-0kB"/>
+                        <outlet property="hatButton4" destination="oLC-tB-N77" id="RzB-vx-0L8"/>
+                        <outlet property="hatButton5" destination="zho-u1-Ths" id="oAA-vq-J4D"/>
+                        <outlet property="hatButton6" destination="dYR-v8-0zI" id="sPt-zZ-Yow"/>
+                        <outlet property="hatButton7" destination="TcN-t3-rHt" id="Rmq-yd-aJc"/>
+                        <outlet property="hatsImageView" destination="PRr-Fr-nk8" id="ruQ-ye-y43"/>
+                        <outlet property="stage" destination="9gf-Xd-rbI" id="nns-JO-87b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.75" y="34.859154929577464"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btnBody1" width="70" height="70"/>
+        <image name="btnBody2" width="70" height="70"/>
+        <image name="btnBody3" width="70" height="70"/>
+        <image name="btnBody4" width="70" height="70"/>
+        <image name="btnBody5" width="70" height="70"/>
+        <image name="btnBody6" width="70" height="70"/>
+        <image name="btnBody7" width="70" height="70"/>
+        <image name="btnFace1" width="70" height="70"/>
+        <image name="btnFace2" width="70" height="70"/>
+        <image name="btnFace3" width="70" height="70"/>
+        <image name="btnFace4" width="70" height="70"/>
+        <image name="btnHat1" width="70" height="70"/>
+        <image name="btnHat2" width="70" height="70"/>
+        <image name="btnHat3" width="70" height="70"/>
+        <image name="btnHat4" width="70" height="70"/>
+        <image name="btnHat5" width="70" height="70"/>
+        <image name="btnHat6" width="70" height="70"/>
+        <image name="btnHat7" width="70" height="70"/>
+        <image name="btnNone" width="140" height="140"/>
+        <image name="gpBody" width="211" height="220"/>
+        <image name="gpHeadHappy" width="178" height="143"/>
+    </resources>
+</document>
